@@ -2,7 +2,7 @@ document.getElementById('submit').addEventListener('click', genRan)
 
 function genRan () {
   // generating a random number
-  let random = Math.floor(Math.random() * 6) + 1
+  const random = Math.floor(Math.random() * 6) + 1
 
   // storing user guess in userRandom
   let userRandom = document.getElementById('user-guess').value
